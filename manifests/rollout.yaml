@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/alins1/go-simple-webserver@sha256:348038f13e664da354ef99a8dc5b352533ddef26470e2ac9f1315422a3c71f3f
+          image: ghcr.io/alins1/ci_cd_lab@sha256:348038f13e664da354ef99a8dc5b352533ddef26470e2ac9f1315422a3c71f3f
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
